@@ -8,6 +8,7 @@ body {
   display: grid;
   grid-template-rows: 150px 1fr 200px;
   height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header,
@@ -24,10 +25,12 @@ ul {
 a {
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #fff;
 }
 
 li,
@@ -36,7 +39,8 @@ p {
 }
 
 header {
-  background-color: lightblue;
+  background-color: #9ad4d6;
+  color: #fff;
 }
 
 main {
@@ -45,17 +49,25 @@ main {
 }
 
 nav {
-  background-color: rgb(206, 206, 45);
+  background-color: #dbcbd8;
   display: flex;
   flex-direction: column;
 }
 
 section {
-  background-color: lightgreen;
+  background-color: #ebfcff;
 }
 .information {
   width: 50%;
 }
+p {
+  margin: 20px 0 20px 0;
+}
+img {
+  max-width: 400px;
+  max-height: 200px;
+}
 footer {
-  background-color: lightcoral;
+  background-color: #564787;
+  color: #fff;
 }
