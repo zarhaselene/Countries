@@ -9,6 +9,7 @@ body {
   grid-template-rows: 150px 1fr 200px;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 header,
@@ -16,6 +17,12 @@ nav,
 section,
 footer {
   padding: 40px;
+  border: 1px solid lightpink;
+}
+header,
+nav,
+footer {
+  color: lightpink;
 }
 
 ul {
@@ -23,14 +30,16 @@ ul {
 }
 
 a {
-  color: black;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #fff;
+  color: #fff !important;
+}
+a:visited {
+  color: lightpink;
 }
 
 li,
@@ -39,7 +48,10 @@ p {
 }
 
 header {
-  background-color: #9ad4d6;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -48,13 +60,13 @@ main {
 }
 
 nav {
-  background-color: #dbcbd8;
+  background-color: #1e1e1e;
   display: flex;
   flex-direction: column;
 }
 
 section {
-  background-color: #ebfcff;
+  background-color: #1e1e1e;
 }
 .information {
   width: 50%;
@@ -67,5 +79,8 @@ img {
   max-height: 200px;
 }
 footer {
-  background-color: #564787;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
