@@ -55,18 +55,19 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 10% 90%;
+  display: flex;
 }
 
 .navigation {
   background-color: #1e1e1e;
   display: flex;
   flex-direction: column;
+  flex: 0 1 10%;
 }
 
 .content-section {
   background-color: #1e1e1e;
+  flex: 0 1 90%;
 }
 .information {
   width: 50%;
