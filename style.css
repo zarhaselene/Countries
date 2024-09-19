@@ -12,73 +12,73 @@ body {
   color: white;
 }
 
-header,
-nav,
-section,
-footer {
+.header,
+.navigation,
+.content-section,
+.footer {
   padding: 40px;
   border: 1px solid lightpink;
 }
-header,
-nav,
-footer {
+.header,
+.navigation,
+.footer {
   color: lightpink;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
   font-weight: bold;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
   color: #fff !important;
 }
-a:visited {
+.link:visited {
   color: lightpink;
 }
 
-li,
-p {
+.list-item,
+.country-information {
   margin-top: 10px;
 }
 
-header {
+.header {
   background-color: #1e1e1e;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main {
+.container {
   display: grid;
   grid-template-columns: 10% 90%;
 }
 
-nav {
+.navigation {
   background-color: #1e1e1e;
   display: flex;
   flex-direction: column;
 }
 
-section {
+.content-section {
   background-color: #1e1e1e;
 }
 .information {
   width: 50%;
 }
-p {
+.country-information {
   margin: 20px 0 20px 0;
 }
-img {
+.flag-image {
   max-width: 400px;
   max-height: 200px;
 }
-footer {
+.footer {
   background-color: #1e1e1e;
   display: flex;
   justify-content: center;
